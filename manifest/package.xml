@@ -4,7 +4,10 @@
 		<members>CreateUpdateMetadataUtils</members>
 		<members>GoogleToken</members>
 		<members>GoogleUtil</members>
+		<members>GoogleUtilUnitTest</members>
+		<members>MultiRequestMock</members>
 		<members>SOQLUtil</members>
+		<members>SingleRequstMock</members>
 		<name>ApexClass</name>
 	</types>
 	<types>
