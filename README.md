@@ -10,3 +10,11 @@
 7. Implement refresh_token after access_token expired
 
 #### It is a Framework to Integrate any OAuth2.0 from salesforce
+
+
+>>Note:
+1. To enable SSO login in salesforce follow:
+My Domain -> Authentication Configuration -> Enable Google, Slack or Facebook Option (Auth provider setup required)
+2. No need to use remote site settings and refresh for named credentials, it will take care.
+3. Add Callback Url from Salesforce Auth Provider as another redirect_uri in connected app of other platform (refresh_token problem solved)
+4. In Named Credential add openid along with other scopes

@@ -12,7 +12,7 @@ public class CreateUpdateMetadataUtils implements Metadata.DeployCallback {
         
         Metadata.CustomMetadata customMetadata =  new Metadata.CustomMetadata();
         customMetadata.fullName = fullName; //qb_Metadata.XYZ
-        customMetadata.label   = label; //XYZ
+        customMetadata.label = label; //XYZ
         
         for(String key : fieldWithValuesMap.keySet()){
             Metadata.CustomMetadataValue customField = new Metadata.CustomMetadataValue();
@@ -20,7 +20,7 @@ public class CreateUpdateMetadataUtils implements Metadata.DeployCallback {
             customField.value = fieldWithValuesMap.get(key); 
             customMetadata.values.add(customField);
         }
-        
+                
         Metadata.DeployContainer mdContainer = new Metadata.DeployContainer();
         mdContainer.addMetadata(customMetadata);
         CreateUpdateMetadataUtils callback = new CreateUpdateMetadataUtils();

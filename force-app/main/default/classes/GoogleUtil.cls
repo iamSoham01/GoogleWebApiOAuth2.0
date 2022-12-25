@@ -168,7 +168,7 @@ public class GoogleUtil {
         String errorMessage = '';
 
         Http http = new Http();
-        HttpRequest httpReq   = prepareRequest('callout:Google/calendar/v3/calendars/cse.amitallenhouse@gmail.com/events',
+        HttpRequest httpReq   = prepareRequest('callout:Google/calendar/v3/calendars/sohamdata01@gmail.com/events',
                                                '', 'GET', '','application/json');
         HttpResponse response = new HttpResponse();
         

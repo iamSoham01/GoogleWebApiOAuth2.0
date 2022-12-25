@@ -8,11 +8,16 @@
 		<members>MultiRequestMock</members>
 		<members>SOQLUtil</members>
 		<members>SingleRequstMock</members>
+		<members>SocialRegHandler</members>
 		<name>ApexClass</name>
 	</types>
 	<types>
 		<members>*</members>
 		<name>ApexPage</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>AuthProvider</name>
 	</types>
 	<types>
 		<members>GoogleToken</members>
@@ -29,6 +34,10 @@
 	<types>
 		<members>Google_Config__mdt-Google Config Layout</members>
 		<name>Layout</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>NamedCredential</name>
 	</types>
 	<types>
 		<members>GoogleAPI</members>
