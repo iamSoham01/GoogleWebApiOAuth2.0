@@ -1,6 +1,6 @@
 # Integration: Google Api OAuth 2.0 from Salesforce
 
-//Steps to Follow:
+####Steps to Follow:
 1. Add remote site settings
 2. Create custom metadata for storing access token and endpoints 
 3. Create a vf page and use that as redirect uri
@@ -12,7 +12,7 @@
 #### It is a Framework to Integrate any OAuth2.0 from salesforce
 
 
->>Note:
+#####Note:
 1. To enable SSO login in salesforce follow:
 My Domain -> Authentication Configuration -> Enable Google, Slack or Facebook Option (Auth provider setup required)
 2. No need to use remote site settings and refresh for named credentials, it will take care.
